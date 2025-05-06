@@ -1,28 +1,47 @@
 # LucysPalindromeGem
 
-TODO: Delete this and the text below, and describe your gem
+lucys_palindrome_gem is a sample Ruby gem created in Learn Enough Ruby tutorial
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/lucys_palindrome_gem`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
+To install `lucys_palindrome_gem`, add this line to your application's `Gemfile`:
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem 'lucys_palindrome_gem'
 ```
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Then install as follows:
 
 ```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+$ bundle install 
+```
+
+Or install it directly using `gem`:
+
+```
+$ gem install lucys_palindrome_gem
 ```
 
 ## Usage
 
-TODO: Write usage instructions here
+`lucys_palindrome_gem` adds a `palindrome?` method to the `String` class, and can be used as follows:
+
+```
+$ irb
+>> require 'lucys_palindrome_gem'
+>> "honey badger".palindrome?
+=> false
+>> "deified".palindrome?
+=> true
+>> "Able was I, ere I saw Elba.".palindrome?
+=> true
+>> phrase = "Madam, I'm Adam."
+>> phrase.palindrome?
+=> true
+```
 
 ## Development
 
@@ -32,4 +51,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/lucys_palindrome_gem.
+Bug reports and pull requests are welcome on GitHub at https://github.com/lucyscode/lucys_palindrome_gem.
