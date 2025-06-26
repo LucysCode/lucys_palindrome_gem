@@ -9,3 +9,6 @@ gem "irb"
 gem "rake", "~> 13.0"
 
 gem "minitest", "~> 5.16"
+
+#manually added
+gem 'minitest-reporters', '1.7.1'

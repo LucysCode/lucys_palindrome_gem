@@ -4,3 +4,7 @@ $LOAD_PATH.unshift File.expand_path("../lib", __dir__)
 require "lucys_palindrome_gem"
 
 require "minitest/autorun"
+
+# manually added
+require "minitest/reporters"
+Minitest::Reporters.use!

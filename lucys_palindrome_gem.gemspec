@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.authors = ["Lucy C"]
   spec.email = ["lucychen96@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = %q{Palindrome detector} # "This is a palindrome gem made using Learn Enough tutorials"
+  spec.description = %q{Learn Enough Ruby palindrome detector} # "This is a palindrome gem made using Learn Enough tutorials. It is done for practice."
+  spec.homepage = "https://github.com/LucysCode/lucys_palindrome_gem.git"
   spec.required_ruby_version = ">= 3.1.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
